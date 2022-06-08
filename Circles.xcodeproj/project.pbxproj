@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6A6AE628515FCC006B469D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6AE528515FCC006B469D /* Tests_iOS.swift */; };
+		BC6A6AE828515FCC006B469D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6AE728515FCC006B469D /* Tests_iOSLaunchTests.swift */; };
+		BC6A6AF228515FCC006B469D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6AF128515FCC006B469D /* Tests_macOS.swift */; };
+		BC6A6AF428515FCC006B469D /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6AF328515FCC006B469D /* Tests_macOSLaunchTests.swift */; };
+		BC6A6AF528515FCC006B469D /* CirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6ACD28515FCB006B469D /* CirclesApp.swift */; };
+		BC6A6AF628515FCC006B469D /* CirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6ACD28515FCB006B469D /* CirclesApp.swift */; };
+		BC6A6AF728515FCC006B469D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6ACE28515FCB006B469D /* ContentView.swift */; };
+		BC6A6AF828515FCC006B469D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A6ACE28515FCB006B469D /* ContentView.swift */; };
+		BC6A6AF928515FCC006B469D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6A6ACF28515FCC006B469D /* Assets.xcassets */; };
+		BC6A6AFA28515FCC006B469D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6A6ACF28515FCC006B469D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6A6AE228515FCC006B469D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6A6AC828515FCB006B469D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6A6AD328515FCC006B469D;
+			remoteInfo = "Circles (iOS)";
+		};
+		BC6A6AEE28515FCC006B469D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6A6AC828515FCB006B469D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6A6AD928515FCC006B469D;
+			remoteInfo = "Circles (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC6A6ACD28515FCB006B469D /* CirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesApp.swift; sourceTree = "<group>"; };
+		BC6A6ACE28515FCB006B469D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC6A6ACF28515FCC006B469D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC6A6AD428515FCC006B469D /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A6ADA28515FCC006B469D /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A6ADC28515FCC006B469D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BC6A6AE128515FCC006B469D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A6AE528515FCC006B469D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		BC6A6AE728515FCC006B469D /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		BC6A6AED28515FCC006B469D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A6AF128515FCC006B469D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		BC6A6AF328515FCC006B469D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6A6AD128515FCC006B469D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AD728515FCC006B469D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6ADE28515FCC006B469D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AEA28515FCC006B469D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6A6AC728515FCB006B469D = {
+			isa = PBXGroup;
+			children = (
+				BC6A6ACC28515FCB006B469D /* Shared */,
+				BC6A6ADB28515FCC006B469D /* macOS */,
+				BC6A6AE428515FCC006B469D /* Tests iOS */,
+				BC6A6AF028515FCC006B469D /* Tests macOS */,
+				BC6A6AD528515FCC006B469D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6A6ACC28515FCB006B469D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A6ACD28515FCB006B469D /* CirclesApp.swift */,
+				BC6A6ACE28515FCB006B469D /* ContentView.swift */,
+				BC6A6ACF28515FCC006B469D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BC6A6AD528515FCC006B469D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A6AD428515FCC006B469D /* Circles.app */,
+				BC6A6ADA28515FCC006B469D /* Circles.app */,
+				BC6A6AE128515FCC006B469D /* Tests iOS.xctest */,
+				BC6A6AED28515FCC006B469D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6A6ADB28515FCC006B469D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A6ADC28515FCC006B469D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BC6A6AE428515FCC006B469D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A6AE528515FCC006B469D /* Tests_iOS.swift */,
+				BC6A6AE728515FCC006B469D /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		BC6A6AF028515FCC006B469D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A6AF128515FCC006B469D /* Tests_macOS.swift */,
+				BC6A6AF328515FCC006B469D /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6A6AD328515FCC006B469D /* Circles (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A6AFD28515FCC006B469D /* Build configuration list for PBXNativeTarget "Circles (iOS)" */;
+			buildPhases = (
+				BC6A6AD028515FCC006B469D /* Sources */,
+				BC6A6AD128515FCC006B469D /* Frameworks */,
+				BC6A6AD228515FCC006B469D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circles (iOS)";
+			productName = "Circles (iOS)";
+			productReference = BC6A6AD428515FCC006B469D /* Circles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6A6AD928515FCC006B469D /* Circles (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A6B0028515FCC006B469D /* Build configuration list for PBXNativeTarget "Circles (macOS)" */;
+			buildPhases = (
+				BC6A6AD628515FCC006B469D /* Sources */,
+				BC6A6AD728515FCC006B469D /* Frameworks */,
+				BC6A6AD828515FCC006B469D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circles (macOS)";
+			productName = "Circles (macOS)";
+			productReference = BC6A6ADA28515FCC006B469D /* Circles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6A6AE028515FCC006B469D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A6B0328515FCC006B469D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				BC6A6ADD28515FCC006B469D /* Sources */,
+				BC6A6ADE28515FCC006B469D /* Frameworks */,
+				BC6A6ADF28515FCC006B469D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6A6AE328515FCC006B469D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BC6A6AE128515FCC006B469D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BC6A6AEC28515FCC006B469D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A6B0628515FCC006B469D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				BC6A6AE928515FCC006B469D /* Sources */,
+				BC6A6AEA28515FCC006B469D /* Frameworks */,
+				BC6A6AEB28515FCC006B469D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6A6AEF28515FCC006B469D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = BC6A6AED28515FCC006B469D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6A6AC828515FCB006B469D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BC6A6AD328515FCC006B469D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BC6A6AD928515FCC006B469D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BC6A6AE028515FCC006B469D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC6A6AD328515FCC006B469D;
+					};
+					BC6A6AEC28515FCC006B469D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC6A6AD928515FCC006B469D;
+					};
+				};
+			};
+			buildConfigurationList = BC6A6ACB28515FCB006B469D /* Build configuration list for PBXProject "Circles" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC6A6AC728515FCB006B469D;
+			productRefGroup = BC6A6AD528515FCC006B469D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6A6AD328515FCC006B469D /* Circles (iOS) */,
+				BC6A6AD928515FCC006B469D /* Circles (macOS) */,
+				BC6A6AE028515FCC006B469D /* Tests iOS */,
+				BC6A6AEC28515FCC006B469D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6A6AD228515FCC006B469D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AF928515FCC006B469D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AD828515FCC006B469D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AFA28515FCC006B469D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6ADF28515FCC006B469D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AEB28515FCC006B469D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6A6AD028515FCC006B469D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AF728515FCC006B469D /* ContentView.swift in Sources */,
+				BC6A6AF528515FCC006B469D /* CirclesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AD628515FCC006B469D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AF828515FCC006B469D /* ContentView.swift in Sources */,
+				BC6A6AF628515FCC006B469D /* CirclesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6ADD28515FCC006B469D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AE828515FCC006B469D /* Tests_iOSLaunchTests.swift in Sources */,
+				BC6A6AE628515FCC006B469D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A6AE928515FCC006B469D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A6AF428515FCC006B469D /* Tests_macOSLaunchTests.swift in Sources */,
+				BC6A6AF228515FCC006B469D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC6A6AE328515FCC006B469D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6A6AD328515FCC006B469D /* Circles (iOS) */;
+			targetProxy = BC6A6AE228515FCC006B469D /* PBXContainerItemProxy */;
+		};
+		BC6A6AEF28515FCC006B469D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6A6AD928515FCC006B469D /* Circles (macOS) */;
+			targetProxy = BC6A6AEE28515FCC006B469D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC6A6AFB28515FCC006B469D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC6A6AFC28515FCC006B469D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC6A6AFE28515FCC006B469D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatech.Circles;
+				PRODUCT_NAME = Circles;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC6A6AFF28515FCC006B469D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatech.Circles;
+				PRODUCT_NAME = Circles;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6A6B0128515FCC006B469D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatech.Circles;
+				PRODUCT_NAME = Circles;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC6A6B0228515FCC006B469D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatech.Circles;
+				PRODUCT_NAME = Circles;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BC6A6B0428515FCC006B469D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circles (iOS)";
+			};
+			name = Debug;
+		};
+		BC6A6B0528515FCC006B469D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circles (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6A6B0728515FCC006B469D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Circles (macOS)";
+			};
+			name = Debug;
+		};
+		BC6A6B0828515FCC006B469D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Circles (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6A6ACB28515FCB006B469D /* Build configuration list for PBXProject "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A6AFB28515FCC006B469D /* Debug */,
+				BC6A6AFC28515FCC006B469D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A6AFD28515FCC006B469D /* Build configuration list for PBXNativeTarget "Circles (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A6AFE28515FCC006B469D /* Debug */,
+				BC6A6AFF28515FCC006B469D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A6B0028515FCC006B469D /* Build configuration list for PBXNativeTarget "Circles (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A6B0128515FCC006B469D /* Debug */,
+				BC6A6B0228515FCC006B469D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A6B0328515FCC006B469D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A6B0428515FCC006B469D /* Debug */,
+				BC6A6B0528515FCC006B469D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A6B0628515FCC006B469D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A6B0728515FCC006B469D /* Debug */,
+				BC6A6B0828515FCC006B469D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6A6AC828515FCB006B469D /* Project object */;
+}
