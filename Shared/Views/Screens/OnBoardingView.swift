@@ -22,7 +22,7 @@ struct OnboardingView: View {
                 .frame(width: 400, height: 400, alignment: .center)
                 .shadow(color: .blue, radius: 12)
             
-            Text("Welcome to My Tribe!")
+            Text("Welcome to your Circle!")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color.MyTheme.brightOrangeColor)

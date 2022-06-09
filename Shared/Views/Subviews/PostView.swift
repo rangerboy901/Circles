@@ -11,7 +11,7 @@ struct PostView: View {
     
     @State var post: PostModel
     var showHeaderAndFooter: Bool
-    @State var postImage: UIImage = UIImage(named: "dog1")!
+    @State var postImage: UIImage = UIImage(named: "logo")!
     @State var animateLike: Bool = false
     @State var showActionSheet: Bool = false
     @State var actionSheetType: PostActionSheetOption = .general
@@ -32,7 +32,7 @@ struct PostView: View {
                     NavigationLink(
                         destination: ProfileView(isMyProfile: false, profileDisplayName: post.username, profileUserID: post.userID),
                         label: {
-                            Image("dog1")
+                            Image("logo")
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 30, height: 30, alignment: .center)

@@ -14,7 +14,7 @@ struct MessageView: View {
     var body: some View {
         HStack {
           //JWD: PROFILE IMAGE
-            Image("dog1")
+            Image("logo2")
                 .resizable()
                 .scaledToFill()
                 .frame(width: 40, height: 40, alignment: .center)

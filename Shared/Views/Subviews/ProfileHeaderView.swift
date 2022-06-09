@@ -15,7 +15,7 @@ struct ProfileHeaderView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 10, content: {
            // JWD: PROFILE PICTURE
-            Image("dog1")
+            Image("profile")
                 .resizable()
                 .scaledToFill()
                 .frame(width: 120, height: 120, alignment: .center)

@@ -13,7 +13,7 @@ import UIKit
 struct UploadView: View {
     //JWD:  PROPERTIES
     @State var showImagePicker: Bool = false
-    @State var imageSelected: UIImage = UIImage(named: "logo.transparent")!
+    @State var imageSelected: UIImage = UIImage(named: "logo")!
     @State var sourceType: UIImagePickerController.SourceType = .camera
     @State var showPostImageView: Bool = false
     
@@ -57,7 +57,7 @@ struct UploadView: View {
             })
             
             
-            Image("logo.transparent")
+            Image("logo")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 250, height: 250, alignment: .center)
